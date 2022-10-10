@@ -7,7 +7,7 @@ After Creating Ubuntu Server 20.04 TLS using Aws,
 ### Update and Install nginx
 * sudo apt update
 * sudo apt install nginx
-![installation image](images/image1.PNG)
+![installation image](images/image1.png)
 ### Updated nginx config file
 
 #insert following configuration into http section
@@ -36,4 +36,4 @@ server {
 * sudo ln -s /snap/bin/certbot /usr/bin/certbot
 * sudo certbot --nginx
 # Certificate image
-![Certificate image](images/image4.PNG)
+![Certificate image](images/image4.png)
